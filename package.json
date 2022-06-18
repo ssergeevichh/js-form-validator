@@ -4,6 +4,17 @@
   "version": "0.0.1",
   "main": "./dist/js-validator.upd.js",
   "module": "./dist/js-validator.es.js",
+  "author": {
+    "name": "sergeevich",
+    "email": "vkuydi@gmail.com"
+  },
+  "keywords": [
+    "validator",
+    "validation",
+    "form",
+    "form-validator"
+  ],
+  "homepage": "https://github.com/ssergeevichh/js-form-validator",
   "exports": {
     ".": {
       "import": "./dist/js-validator.es.js",
@@ -12,6 +23,7 @@
     "./dist/*": "./dist/*",
     "./package.json": "./package.json"
   },
+  "scope": "@ssergeevichh",
   "files":[
     "dist/*"
   ],
