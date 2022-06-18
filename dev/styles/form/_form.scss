@@ -1,0 +1,31 @@
+.form-wrapper {
+  display: flex;
+  gap: 50px;
+  &__img {
+    object-fit: cover;
+    width: 50%;
+  }
+}
+
+.validate-user {
+  position: relative;
+  width: 50%;
+  &__btn {
+    margin-top: 30px;
+  }
+}
+
+
+
+.invalid-field-message {
+  position: absolute;
+  right: 0;
+  color: red;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.invalid-field {
+  border: 2px solid red;
+  border-radius: 5px;
+} 

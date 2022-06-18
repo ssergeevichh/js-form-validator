@@ -1,0 +1,12 @@
+.invalid-field-message {
+  position: absolute;
+  right: 0;
+  color: red;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.invalid-field {
+  border: 2px solid red;
+  border-radius: 5px;
+} 
